@@ -1,0 +1,205 @@
+.AboutmeContainer{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+.myIMG2{
+    margin-left: 43px;
+    margin-top: -91px;
+
+}
+
+
+.myIMG2 img{
+    height: 360px;
+    width: 360px;
+}
+
+
+.borderContainer{
+margin-left: 300px;
+}
+
+.OuterBorder{
+    height: 100px;
+    width: 115px;
+    border: 3px dotted #1d548c;
+    border-color: #1d548c #1d548c white white;
+}
+
+.InnerBorder{
+    height: 94px;
+    width: 108px;
+    border: 3px dotted #1d548c;
+    border-color: #1d548c #1d548c white white;
+    margin-top: -99px;
+  
+}
+
+
+.circle{
+    background-color: transparent;
+    border:13px solid #1d548c;    
+    height: 90px;
+    width: 90px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -30px;
+
+}
+
+
+.AboutmeGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.AboutmeText{
+    padding-bottom: 100px;
+}
+
+.AboutmeText h2{
+    width: 70%;
+    color: #06213b;
+}
+
+.AboutmeText > p{
+    text-align: justify;
+    width: 100%;
+}
+
+.firstText{
+    background-color: rgba(250, 244, 244, 0.925);
+    color: #1d548c;
+    font-size: 13px;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.CVbtn{
+    background-color: #1d548c;
+    color: #fff;
+    height: 70px;
+    width: 220px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 17px;
+    border: none;
+    
+
+}
+
+@media screen and (min-width: 600px ) and (max-width: 780px) {
+    .AboutmeGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+    }
+    .firstText {
+        font-size: 0.8rem;
+        width: 100px;
+    }
+    .AboutmeText h2 {
+        width: 100%;
+        color: #06213b;
+        font-size: 2rem;
+    }
+    .AboutmeText > p {
+        width: 100%;
+        font-size: 1rem;
+    }
+    /* The below could be used to center the image vertically in the center */
+    /* .AboutME{
+        align-self: center;
+    } */
+    .myIMG2 img {
+        height: 280px;
+        width: 260px;
+    }
+
+    .CVbtn{
+        margin-top: 10px;
+        font-size: 1rem;
+        width: 150px;
+        height: 50px;
+    }
+    .circle {
+        height: 81px;
+        width: 81px;
+        margin-top: -131px;
+        margin-left: -23px;
+    }
+    .borderContainer {
+        margin-left: 200px;
+    }
+}
+
+
+@media screen and (min-width: 320px ) and (max-width: 599px) {
+    
+    .AboutmeGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 100px;
+        
+    }
+    .myIMG2 {
+        padding-bottom: 40px;
+    }
+    .AboutmeText h2 {
+        width: 100%;
+        color: #06213b;
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+    .AboutmeText > p {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .AboutmeText{
+        justify-self: center;
+        padding-bottom: 0px;
+    }
+    /* The below could be used to center the image vertically in the center */
+    .AboutME{
+        align-self: center;
+        justify-self: center;
+    }
+
+    .firstText {
+        font-size: 0.8rem;
+        width: 80px;
+        height: 35px;
+    }
+
+    .CVbtn{
+        margin-top: 10px;
+        width: 170px;
+        font-size: 1rem;
+        height: 50px;
+        letter-spacing: 1px;
+    }
+    .myIMG2 img{
+        height: 280px;
+        width: 260px;
+    }
+    .circle {
+
+        height: 56px;
+        width: 64px;
+        margin-top: -125px;
+        margin-left: 0px;
+    }
+    .borderContainer {
+        margin-left: 200px;
+    }
+
+}

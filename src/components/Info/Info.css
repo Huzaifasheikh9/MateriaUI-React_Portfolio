@@ -1,0 +1,211 @@
+
+.Container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 80% 10% ;
+}
+
+.InnerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.SocialMedia{
+    position: fixed;
+    
+}
+
+.SocialMedia ul{
+    list-style-type: none;
+    margin-top: -2px;
+    padding-left: 10px;
+}
+
+.SocialMedia ul li{
+    padding-bottom: 15px;
+}
+
+.Welcome{
+    background-color: rgba(250, 244, 244, 0.925);
+    color: #1d548c;
+    font-size: 13px;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.innerText h1{
+    color: #06213b;
+}
+
+.innerText p {
+    margin-top: -6px;
+    margin-bottom: 1px;
+}
+
+.lowerText {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100%;
+}
+
+.BlueBtn{
+    background-color: #1d548c;
+    color: #fff;
+    height: 50px;
+    width: 125px;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-right: 18px;
+    border: none;
+    letter-spacing: 1px;
+}
+.WhiteBtn{
+    background-color: #fff;
+    border: 1px solid #1d548c;
+    color: #1d548c;
+    height: 50px;
+    width: 125px;
+    border-radius: 4px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+}
+
+.imgContainer{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.imgContainer img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 70%;
+}
+.twitterBG{
+    height: 29px;
+    width: 34px;
+    background-color: #1d548c;
+    border-bottom-right-radius: 160px;
+    border-top-right-radius: 160px;
+}
+  
+
+
+@media screen and (min-width: 600px ) and (max-width: 780px) {
+    .Welcome {
+        font-size: 0.8rem;
+        width: 100px;
+        height: 35px;
+    }
+
+    .innerText h1 {
+        font-size: 2rem;
+    }
+    .innerText p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 0.8rem;
+    }
+
+    .InnerContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .imgContainer{
+        align-self: center;
+    }
+    .imgContainer img{
+        width: 100%;
+    }
+    .lowerText {
+        font-size: 1rem;
+        width: 90%;
+
+    }
+
+    .BlueBtn {
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    .WhiteBtn {
+        width: 120px;
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 320px ) and (max-width: 599px) {
+
+    .Welcome {
+        font-size: .80rem;
+        width: 100px;
+        height: 35px;
+    }
+
+    .innerText h1 {
+        font-size: 2rem;
+    }
+    .innerText p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: .75rem;
+    }
+
+    .InnerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .imgContainer{
+        align-self: center;
+        grid-row: 1/2;
+
+    }
+    .imgContainer img{
+        width: 50%;
+    }
+    .lowerText {
+        font-size: 1rem;
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+    .BlueBtn {
+        width: 120px;
+        font-size: 1rem;
+        height: 50px;
+    }
+
+    .WhiteBtn {
+        width: 120px;
+        font-size: 1rem;
+        height: 50px;
+
+    }
+    .InnerContainer {
+        padding: 0;
+        grid-gap: 50px;
+    }
+    
+
+}

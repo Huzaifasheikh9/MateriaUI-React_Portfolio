@@ -1,0 +1,115 @@
+.BlogContainer{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.BContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr .3fr;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.BlogText{
+    grid-column: 1/4;
+    display: grid;
+    height: 150px;
+    width: 100%;
+   text-align: center;
+}
+.BlogFirstText{
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(250, 244, 244, 0.925);
+    color: #1d548c;
+    font-size: 13px;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.BlogBlocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.BlogImageStyling{
+    width: 100%;
+    height: 230px;
+}
+.BlogBlocksItem1{
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 2px 3px 8px -3px #9fbbce;
+
+    
+}
+.BlogBlocksItem2{
+    height: auto;
+    width: 350px;
+    box-shadow: 2px 3px 8px -3px #9fbbce;
+
+}
+.BlogBlocksItem3{
+    height: auto;
+    width: 350px;
+    box-shadow: 2px 3px 8px -3px #9fbbce;
+
+}
+
+.BlogItemDate{
+    color: #1d548c;
+    font-size: 0.8rem;
+}
+.BlogText2{
+    color: #06213b;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.BlogText3{
+    color: #1d548c;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.BlogText4{
+    padding-bottom: 15px;
+}
+.BlogText5{
+    color: #1d548c;
+    cursor: pointer;
+}
+.BLOGtxtC{
+    padding-left: 20px;
+}
+
+.BlogBtn{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self: center;
+    padding-top: 50px;
+}
+.BlogBtnStyle{
+    background-color: #1d548c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 50px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+
+@media screen and (min-width: 600px ) and (max-width: 780px) {
+
+
+}
+
+
+@media screen and (min-width: 320px ) and (max-width: 599px) {
+
+}
